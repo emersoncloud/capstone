@@ -1,0 +1,2 @@
+/home/emerson/github/capstone/build/CMakeFiles/printout.dir
+/home/emerson/github/capstone/build/CMakeFiles/graph.dir

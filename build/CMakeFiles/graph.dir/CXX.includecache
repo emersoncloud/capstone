@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emerson/github/capstone/Complexity_Recorder.hpp
+vector
+-
+iostream
+-
+iomanip
+-
+
+/home/emerson/github/capstone/Complexity_Timer.hpp
+vector
+-
+ctime
+-
+
+/home/emerson/github/capstone/adjacent.hpp
+iostream
+-
+vector
+-
+cstdlib
+-
+
+/home/emerson/github/capstone/main.cpp
+iostream
+-
+cstdlib
+-
+adjacent.hpp
+/home/emerson/github/capstone/adjacent.hpp
+Complexity_Timer.hpp
+/home/emerson/github/capstone/Complexity_Timer.hpp
+Complexity_Recorder.hpp
+/home/emerson/github/capstone/Complexity_Recorder.hpp
+
