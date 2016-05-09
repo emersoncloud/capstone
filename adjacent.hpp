@@ -21,18 +21,18 @@ struct AdjList
     Node *head;
 };
 
-struct Iterator {
-	Node* i = nullptr;
-
-	Iterator (Node* x) : i(x) {}
-
-	T& operator*() {
-		return i->weight;
-	}
-
-	Iterator operator ++(){
-		
- 
+//struct Iterator {
+//	Node* i = nullptr;
+//
+//	Iterator (Node* x) : i(x) {}
+//
+//	T& operator*() {
+//		return i->weight;
+//	}
+//
+//	Iterator operator ++(){
+//		
+// 
 //Struct to define the actual graph. The graph consists of an int for the number
 //of Verticies and an array of AdjList pointers.
 struct Graph
@@ -103,6 +103,7 @@ struct Graph
 				}
 			}
 
+
 			//Next all of paths to the destination nodes need to be recorded
 			//and then added together in parallel
 			//counter to store which path you're on. Used to save the series
@@ -119,6 +120,7 @@ struct Graph
 			//temp Node pointer that follows the path until the final value and
 			//is used to find the total series resistance
 			temp = whereami; 
+
 
 			while (whereami != NULL) {
 				store[counter] += temp->weight;
@@ -140,17 +142,21 @@ struct Graph
 				} 
 			}
 
+			cout << endl << endl << "counter: " << counter;
+
 			int numPaths = 0;
 			for(Node* p = array[src].head; p != NULL; p = p->next)
 				numPaths++;
 			
 
 			//Add the final resistances together. 
-				
+			cout << store[0] << endl << endl;	
+
 			for(int i = 1; i < numPaths; i++) {
 				store[i] = (store[i] * store[i-1]) / (store[i] + store[i-1]);
 			}
 
+			cout << numPaths;
 			return store[0];
 		}
 		
