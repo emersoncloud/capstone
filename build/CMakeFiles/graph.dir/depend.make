@@ -3,6 +3,6 @@
 
 CMakeFiles/graph.dir/main.cpp.o: ../Complexity_Recorder.hpp
 CMakeFiles/graph.dir/main.cpp.o: ../Complexity_Timer.hpp
-CMakeFiles/graph.dir/main.cpp.o: ../adjacent.hpp
 CMakeFiles/graph.dir/main.cpp.o: ../main.cpp
+CMakeFiles/graph.dir/main.cpp.o: ../resistance.hpp
 

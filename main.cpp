@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "adjacent.hpp"
+#include "resistance.hpp"
 #include "Complexity_Timer.hpp"
 
 #include "Complexity_Recorder.hpp"

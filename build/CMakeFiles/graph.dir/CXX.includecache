@@ -20,23 +20,23 @@ vector
 ctime
 -
 
-/home/emerson/github/capstone/adjacent.hpp
+/home/emerson/github/capstone/main.cpp
+iostream
+-
+cstdlib
+-
+resistance.hpp
+/home/emerson/github/capstone/resistance.hpp
+Complexity_Timer.hpp
+/home/emerson/github/capstone/Complexity_Timer.hpp
+Complexity_Recorder.hpp
+/home/emerson/github/capstone/Complexity_Recorder.hpp
+
+/home/emerson/github/capstone/resistance.hpp
 iostream
 -
 vector
 -
 cstdlib
 -
-
-/home/emerson/github/capstone/main.cpp
-iostream
--
-cstdlib
--
-adjacent.hpp
-/home/emerson/github/capstone/adjacent.hpp
-Complexity_Timer.hpp
-/home/emerson/github/capstone/Complexity_Timer.hpp
-Complexity_Recorder.hpp
-/home/emerson/github/capstone/Complexity_Recorder.hpp
 
