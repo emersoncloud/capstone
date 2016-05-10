@@ -11,7 +11,7 @@ main.cpp uses resistance.hpp for testing
 Complexity_Recorder.hpp and .cpp provide for the timing code in main.cpp
 
 TO RUN:
-	rm -rf build<cr>
+	rm -rf build
 	mkdir build
 	cd build
 	cmake ..
